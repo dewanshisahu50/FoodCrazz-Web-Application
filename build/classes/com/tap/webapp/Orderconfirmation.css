@@ -1,0 +1,98 @@
+/* Order Confirmation Page */
+.confirmation-box {
+    background-color: #fff8f0; /* Light brown background */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(78, 52, 46, 0.2);
+    padding: 30px;
+    max-width: 800px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.confirmation-box h2 {
+    color: #4e342e;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.confirmation-box .summary {
+    background-color: #d7ccc8;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.confirmation-box p {
+    color: #4e342e;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.confirmation-box hr {
+    border: 1px solid #6d4c41;
+    margin: 20px 0;
+}
+
+.confirmation-box table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.confirmation-box th, .confirmation-box td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.confirmation-box th {
+    background-color: #6d4c41;
+    color: #fff;
+}
+
+.confirmation-box td {
+    background-color: #f5f5f5;
+    color: #3e2723;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.primary-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .confirmation-box {
+        padding: 20px;
+    }
+
+    .confirmation-box h2 {
+        font-size: 1.5rem;
+    }
+
+    .confirmation-box table,
+    .confirmation-box th,
+    .confirmation-box td {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+
+    .confirmation-box .summary {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,223 @@
+@charset "UTF-8";
+body {
+    background-color: #3e2723;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5dc;
+}
+
+.custom-navbar {
+    background-color: #5d4037;
+    padding: 1rem;
+}
+
+.checkout-box {
+    background-color: #4e342e;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+table {
+    color: #f5f5dc;
+}
+
+.summary p,
+.summary h4 {
+    font-size: 1.1rem;
+    color: #f5f5dc;
+}
+
+.btn-light {
+    background-color: #d7ccc8;
+    color: #3e2723;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-light:hover {
+    background-color: #bcaaa4;
+    color: #ffffff;
+}
+
+/* Personal and Delivery Details Section */
+.details-section {
+    background-color: #fff8f0; /* Light brown background */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(78, 52, 46, 0.2);
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.details-section h4 {
+    color: #4e342e; /* Dark brown */
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    color: #4e342e; /* Dark brown */
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.form-control {
+    background-color: #fff;
+    border: 1px solid #a1887f; /* Brown border */
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    color: #3e2723;
+}
+
+.form-control:focus {
+    border-color: #6d4c41; /* Dark brown focus border */
+    box-shadow: 0 0 5px rgba(109, 76, 65, 0.4);
+}
+
+textarea.form-control {
+    height: 150px;
+}
+
+.submit-btn {
+    background-color: #6d4c41;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 12px 25px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #5d4037;
+}
+
+.submit-btn:focus {
+    box-shadow: 0 0 5px rgba(109, 76, 65, 0.4);
+}
+
+.summary-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #d7ccc8; /* Light brown background */
+    border-radius: 15px;
+}
+
+.summary-section p {
+    font-size: 1.1rem;
+    color: #4e342e;
+    margin: 10px 0;
+}
+
+.summary-section hr {
+    border: 1px solid #6d4c41; /* Dark brown */
+    margin: 20px 0;
+}
+
+/* General Styles for Forms */
+.card-header {
+    background-color: #6d4c41; /* Dark brown */
+    color: white;
+}
+
+.card-body {
+    background-color: #f5f5f5;
+}
+
+.card-body .form-label {
+    font-weight: bold;
+}
+
+.card-body .form-select, .card-body .form-control {
+    border-radius: 5px;
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: #6d4c41;
+    border: none;
+    color: white;
+}
+
+/* Additional styling */
+.form-control, .form-select {
+    margin-bottom: 1.5rem;
+}
+
+/* Optional: Style the headings */
+.card-header h5 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+    .checkout-box,
+    .details-section,
+    .summary-section {
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .details-section h4 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-label {
+        font-size: 1rem;
+    }
+
+    .form-control,
+    .form-select {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .summary-section {
+        text-align: center;
+    }
+
+    .summary-section p {
+        font-size: 1rem;
+    }
+
+    .btn-light,
+    .btn-primary {
+        width: 100%;
+        margin-top: 1rem;
+        padding: 10px;
+    }
+
+    table {
+        font-size: 0.9rem;
+    }
+
+    .card-header h5 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .custom-navbar {
+        text-align: center;
+    }
+}
+
+
+
+
